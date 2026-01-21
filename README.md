@@ -1,5 +1,5 @@
 # animateln
-## animate-line function for **C++**
+## Single-header-only animate-line function for **C++**
 
 ## History
 When i was developing [pacostrap](https://github.com/npc-gnu/pacostrap), i wanted to add some thing for UI. Colors was **great but not enough** so i writed my own function to animate lines.
