@@ -4,8 +4,8 @@
 #include <chrono>
 #include <thread>
 #include <atomic>
-std::atomic<bool> animating;
-void animateln(char letter, int time_milisecond){
+inline std::atomic<bool> animating;
+inline void animateln(char letter, int time_milisecond){
 	while(animating){
 		std::cout << letter;
 		std::cout.flush();

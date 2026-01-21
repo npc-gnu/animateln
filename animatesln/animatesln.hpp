@@ -4,7 +4,7 @@
 #include <chrono>
 #include <thread>
 #include <string>
-void animatesln(const std::string &text, int time_milisecond){
+inline void animatesln(const std::string &text, int time_milisecond){
 	for(char c : text){
 		std::cout << c;
 		std::cout.flush();

@@ -5,7 +5,7 @@
 #include <thread>
 #include <chrono>
 #include <atomic>
-void spinner(std::atomic<bool>& running, int delay_ms) {
+inline void spinner(std::atomic<bool>& running, int delay_ms) {
 	std::vector<char> frames = {'/', '-', '\\', '|'};
 	int index = 0;
 	while (running) {
