@@ -1,3 +1,0 @@
-#!/bin/bash
-g++ -o testanimatel animatel.cpp animatel.hpp command.cpp command.hpp  testanimatel.cpp
-./testanimatel
